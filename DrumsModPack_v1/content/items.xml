@@ -1,0 +1,17 @@
+<items gfxroot="gfx\items\" version="1">
+	<passive description="TO THE VOID" maxcharges="0" name="voidTp" gfx="void.png" />
+
+	<passive cache="damage range" name="Ignis" description="Short temper" gfx="Ignis.png"/>
+	<passive cache="firedelay shotspeed range" name="Aqua" description="Let the tears flow" gfx="Aqua.png"/>
+	<passive cache="speed" maxhearts="4" hearts="100" name="Terra" description="Eartly Kinship" gfx="Terra.png"/>
+	<passive cache="flying" name="Aer" description="Agility" gfx="Aer.png"/>
+	<passive cache="range speed shotspeed" name="Salis" description="Balance" gfx="Ordo.png"/>
+	<passive cache="" name="Vitae" description="I feel life" gfx="Vitae.png"/>
+	<passive cache="" blackhearts="2" name="Mortem" description="I feel death" gfx="Mortem.png"/>
+	
+	<passive cache="all" description="Collect the soul of your enemies" gfx="crowhead.png" devilprice="1" name="Crow Head" />
+
+	<passive description="Wealth is plenty" gfx="Collectibles_Cornucopia.png" name="Cornucopia" />
+
+	<trinket cache="" name="Hermetic Marble" description="Quintessential sphere" gfx="trinket_c01_hermeticmarble.png"/>
+</items>

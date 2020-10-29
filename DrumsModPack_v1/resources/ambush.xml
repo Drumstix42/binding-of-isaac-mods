@@ -1,0 +1,540 @@
+<ambushRoom> <!-- Challenge Room -->
+	<baseWave> 
+		<stage id="1"> <!-- Basement I -->
+			<wave>
+				<enemy type="18" variant="0" count="5"/> <!-- Attack Fly -->
+			</wave>
+			<wave>
+				<enemy type="14" variant="0" count="4"/> <!-- Pooter -->
+			</wave>
+			<wave>
+				<enemy type="80" variant="0" count="3"/> <!-- Moter -->
+			</wave>
+		</stage>
+		<stage id="2"> <!-- Caves I -->
+			<wave>
+				<enemy type="22" variant="0" count="3"/> <!-- Hive -->
+			</wave>
+			<wave>
+				<enemy type="61" variant="0" count="5"/> <!-- Sucker -->
+			</wave>
+			<wave>
+				<enemy type="25" variant="0" count="4"/> <!-- Boom Fly -->
+			</wave>
+		</stage>
+		<stage id="3"> <!-- Depths I -->
+			<wave>
+				<enemy type="38" variant="0" count="5"/> <!-- Baby -->
+			</wave>
+			<wave>
+				<enemy type="41" variant="0" count="4"/> <!-- Knight -->
+			</wave>
+			<wave>
+				<enemy type="39" variant="0" count="4"/> <!-- Vis -->
+			</wave>
+		</stage>
+		<stage id="4"> <!-- Womb I -->
+			<wave>
+				<enemy type="55" variant="0" count="5"/> <!-- Leech -->
+			</wave>
+			<wave>
+				<enemy type="60" variant="0" count="3"/> <!-- Eye -->
+			</wave>
+			<wave>
+				<enemy type="53" variant="0" count="1"/> <!-- Dople -->
+				<enemy type="32" variant="0" count="4"/> <!-- Brain -->
+			</wave>
+		</stage>
+	</baseWave>
+	<altWave>
+		<stage id="1"> <!-- Basement II -->
+			<wave>
+				<enemy type="10" variant="0" count="4"/> <!-- Frowning Gaper -->
+			</wave>
+			<wave>
+				<enemy type="29" variant="0" count="4"/> <!-- Hopper -->
+			</wave>
+			<wave>
+				<enemy type="244" variant="0" count="3"/> <!-- Round Worm -->
+			</wave>
+		</stage>
+		<stage id="2"> <!-- Caves II -->
+			<wave>
+				<enemy type="87" variant="0" count="4"/> <!-- Gurgle -->
+			</wave>
+			<wave>
+				<enemy type="26" variant="0" count="5"/> <!-- Maw -->
+			</wave>
+			<wave>
+				<enemy type="23" variant="0" count="5"/> <!-- Charger -->
+			</wave>
+		</stage>
+		<stage id="3"> <!-- Depths II -->
+			<wave>
+				<enemy type="208" variant="1" count="4"/> <!-- Pale Fatty -->
+			</wave>
+			<wave>
+				<enemy type="227" variant="0" count="4"/> <!-- Bony -->
+			</wave>
+			<wave>
+				<enemy type="35" variant="0" count="3"/> <!-- Mr. Maw -->
+			</wave>
+		</stage>
+		<stage id="4"> <!-- Womb II -->
+			<wave>
+				<enemy type="32" variant="0" count="5"/> <!-- Brain -->
+			</wave>
+			<wave>
+				<enemy type="290" variant="0" count="3"/> <!-- Meatball -->
+			</wave>
+			<wave>
+				<enemy type="224" variant="0" count="2"/> <!-- Oob -->
+			</wave>
+		</stage>
+	</altWave>
+	<secBaseWave>
+		<stage id="1"> <!-- Cellar I -->
+			<wave>
+				<enemy type="94" variant="0" count="1"/> <!-- Big Spider -->
+				<enemy type="85" variant="0" count="4"/> <!-- Spider -->
+			</wave>
+			<wave>
+				<enemy type="29" variant="1" count="4"/> <!-- Trite -->
+			</wave>
+			<wave>
+				<enemy type="215" variant="0" count="3"/> <!-- Level 2 Spider -->
+			</wave>
+		</stage>
+		<stage id="2"> <!-- Catacombs I -->
+			<wave>
+				<enemy type="61" variant="1" count="5"/> <!-- Split -->
+			</wave>
+			<wave>
+				<enemy type="15" variant="1" count="5"/> <!-- Clot -->
+			</wave>
+			<wave>
+				<enemy type="255" variant="0" count="4"/> <!-- Nightcrawler -->
+			</wave>
+		</stage>
+		<stage id="3"> <!-- Necropolis I -->
+			<wave>
+				<enemy type="254" variant="0" count="4"/> <!-- Floating Knight -->
+			</wave>
+			<wave>
+				<enemy type="39" variant="1" count="3"/> <!-- Double Vis -->
+			</wave>
+			<wave>
+				<enemy type="90" variant="0" count="2"/> <!-- Hanger -->
+			</wave>
+		</stage>
+		<stage id="4"> <!-- Utero I -->
+			<wave>
+				<enemy type="57" variant="0" count="1"/> <!-- Membrain -->
+				<enemy type="32" variant="0" count="4"/> <!-- Brain -->
+			</wave>
+			<wave>
+				<enemy type="58" variant="0" count="4"/> <!-- Para-bite -->
+			</wave>
+			<wave>
+				<enemy type="59" variant="0" count="4"/> <!-- Fred -->
+			</wave>
+		</stage>
+	</secBaseWave>
+	<secAltWave>
+		<stage id="1"> <!-- Cellar II -->
+			<wave>
+				<enemy type="30" variant="2" count="5"/> <!-- Sack -->
+			</wave>
+			<wave>
+				<enemy type="240" variant="0" count="4"/> <!-- Wall Creep -->
+			</wave>
+			<wave>
+				<enemy type="205" variant="0" count="2"/> <!-- Nest -->
+			</wave>
+		</stage>
+		<stage id="2"> <!-- Catacombs II -->
+			<wave>
+				<enemy type="242" variant="0" count="4"/> <!-- Blind Creep -->
+			</wave>
+			<wave>
+				<enemy type="246" variant="0" count="4"/> <!-- Ragling -->
+			</wave>
+			<wave>
+				<enemy type="303" variant="0" count="3"/> <!-- Blister -->
+			</wave>
+		</stage>
+		<stage id="3"> <!-- Necropolis II -->
+			<wave>
+				<enemy type="241" variant="0" count="4"/> <!-- Rage Creep -->
+			</wave>
+			<wave>
+				<enemy type="93" variant="0" count="3"/> <!-- Mask -->
+			</wave>
+			<wave>
+				<enemy type="301" variant="0" count="4"/> <!-- Poison Mind -->
+			</wave>
+		</stage>
+		<stage id="4"> <!-- Utero II -->
+			<wave>
+				<enemy type="57" variant="1" count="1"/> <!-- Mama Guts -->
+				<enemy type="40" variant="0" count="4"/> <!-- Guts -->
+			</wave>
+			<wave>
+				<enemy type="282" variant="0" count="3"/> <!-- Mega Clotty -->
+			</wave>
+			<wave>
+				<enemy type="213" variant="0" count="3"/> <!-- Mom's Hand -->
+				<enemy type="231" variant="0" count="5"/> <!-- Nerve Ending -->
+			</wave>
+		</stage>
+	</secAltWave>
+</ambushRoom>
+<bossAmbushRoom> <!-- Boss Challenge Room -->
+	<baseWave>
+		<stage id="1"> <!-- Basement I -->
+		<wave>
+			<enemy type="256" variant="0" count="5"/> <!-- Dart Fly -->
+		</wave>
+		<wave>
+			<enemy type="281" variant="0" count="2"/> <!-- Swarm Fly -->
+		</wave>
+		<wave>
+			<enemy type="249" variant="0" count="2"/> <!-- Full Fly -->
+			<enemy type="214" variant="0" count="4"/> <!-- Level 2 Fly -->
+		</wave>
+		</stage>
+		<stage id="2"> <!-- Caves I -->
+			<wave>
+				<enemy type="24" variant="0" count="5"/> <!-- Globin -->
+			</wave>
+			<wave>
+				<enemy type="300" variant="0" count="5"/> <!-- Mushroom -->
+			</wave>
+			<wave>
+				<enemy type="288" variant="0" count="3"/> <!-- Dukie -->
+			</wave>
+		</stage>
+		<stage id="3"> <!-- Depths I -->
+			<wave>
+				<enemy type="254" variant="0" count="5"/> <!-- Floating Knight -->
+			</wave>
+			<wave>
+				<enemy type="27" variant="0" count="5"/> <!-- Host -->
+			</wave>
+			<wave>
+				<enemy type="219" variant="0" count="4"/> <!-- Wizoob -->
+			</wave>
+		</stage>
+		<stage id="4"> <!-- Womb I -->
+			<wave>
+				<enemy type="221" variant="0" count="4"/> <!-- Cod Worm -->
+			</wave>
+			<wave>
+				<enemy type="27" variant="1" count="5"/> <!-- Red Host -->
+			</wave>
+			<wave>
+				<enemy type="228" variant="0" count="4"/> <!-- Homunculus -->
+			</wave>
+		</stage>
+	</baseWave>
+	<altWave>
+		<stage id="1"> <!-- Basement II -->
+		<wave>
+			<enemy type="220" variant="0" count="1"/> <!-- Squirt -->
+			<enemy type="217" variant="0" count="4"/> <!-- Dip -->
+		</wave>
+		<wave>
+			<enemy type="289" variant="0" count="4"/> <!-- Ulcer -->
+		</wave>
+		<wave>
+			<enemy type="16" variant="2" count="4"/> <!-- Mulliboom -->
+		</wave>
+		</stage>
+		<stage id="2"> <!-- Caves II -->
+			<wave>
+				<enemy type="257" variant="0" count="3"/> <!-- Conjoined Fatty -->
+			</wave>
+			<wave>
+				<enemy type="234" variant="0" count="4"/> <!-- One Tooth -->
+			</wave>
+			<wave>
+				<enemy type="31" variant="0" count="5"/> <!-- Spitty -->
+			</wave>
+		</stage>
+		<stage id="3"> <!-- Depths II -->
+			<wave>
+				<enemy type="204" variant="0" count="4"/> <!-- Mobile Host -->
+			</wave>
+			<wave>
+				<enemy type="227" variant="0" count="5"/> <!-- Bony -->
+			</wave>
+			<wave>
+				<enemy type="226" variant="1" count="4"/> <!-- Rotty -->
+			</wave>
+		</stage>
+		<stage id="4"> <!-- Womb II -->
+			<wave>
+				<enemy type="60" variant="0" count="4"/> <!-- Eye -->
+			</wave>
+			<wave>
+				<enemy type="58" variant="0" count="4"/> <!-- Para-Bite -->
+			</wave>
+			<wave>
+				<enemy type="247" variant="0" count="4"/> <!-- Flesh Mobile Host -->
+			</wave>
+		</stage>
+	</altWave>
+	<secBaseWave>
+		<stage id="1"> <!-- Cellar I -->
+			<wave>
+				<enemy type="85" variant="0" count="5"/> <!-- Spider -->
+			</wave>
+			<wave>
+				<enemy type="226" variant="0" count="4"/> <!-- Skinny -->
+			</wave>
+			<wave>
+				<enemy type="250" variant="0" count="4"/> <!-- Ticking Spider -->
+			</wave>
+		</stage>
+		<stage id="2"> <!-- Catacombs I -->
+			<wave>
+				<enemy type="39" variant="2" count="4"/> <!-- Chubber -->
+			</wave>
+			<wave>
+				<enemy type="89" variant="0" count="2" chunks="3"/> <!-- Buttlicker -->
+			</wave>
+			<wave>
+				<enemy type="86" variant="0" count="4"/> <!-- Keeper -->
+			</wave>
+		</stage>
+		<stage id="3"> <!-- Necropolis I -->
+			<wave>
+				<enemy type="93" variant="0" count="3"/> <!-- Mask -->
+			</wave>
+			<wave>
+				<enemy type="219" variant="0" count="4"/> <!-- Wizoob -->
+			</wave>
+			<wave>
+				<enemy type="90" variant="0" count="2"/> <!-- Hanger -->
+			</wave>
+		</stage>
+		<stage id="4"> <!-- Utero I -->
+			<wave>
+				<enemy type="229" variant="0" count="4"/> <!-- Tumor -->
+			</wave>
+			<wave>
+				<enemy type="56" variant="0" count="4"/> <!-- Lump -->
+			</wave>
+			<wave>
+				<enemy type="216" variant="0" count="3"/> <!-- Swinger -->
+			</wave>
+		</stage>
+	</secBaseWave>
+	<secAltWave>
+		<stage id="1"> <!-- Cellar II -->
+			<wave>
+				<enemy type="15" variant="0" count="4"/> <!-- Clotty -->
+			</wave>
+			<wave>
+				<enemy type="88" variant="2" count="4"/> <!-- Walking Sack -->
+			</wave>
+			<wave>
+				<enemy type="260" variant="10" count="3"/> <!-- Lil Haunt -->
+			</wave>
+		</stage>
+		<stage id="2"> <!-- Catacombs II -->
+			<wave>
+				<enemy type="24" variant="0" count="5"/> <!-- Globin -->
+			</wave>
+			<wave>
+				<enemy type="26" variant="0" count="5"/> <!-- Maw -->
+			</wave>
+			<wave>
+				<enemy type="258" variant="0" count="3"/> <!-- Fat Bat -->
+			</wave>
+		</stage>
+		<stage id="3"> <!-- Necropolis II -->
+			<wave>
+				<enemy type="41" variant="0" count="5"/> <!-- Knight -->
+			</wave>
+			<wave>
+				<enemy type="209" variant="0" count="3"/> <!-- Fat Sack -->
+			</wave>
+			<wave>
+				<enemy type="91" variant="0" count="2"/> <!-- Swarmer -->
+			</wave>
+		</stage>
+		<stage id="4"> <!-- Utero II -->
+			<wave>
+				<enemy type="224" variant="0" count="2"/> <!-- Oob -->
+			</wave>
+			<wave>
+				<enemy type="53" variant="0" count="1"/> <!-- Dople -->
+				<enemy type="56" variant="0" count="3"/> <!-- Lump -->
+			</wave>
+			<wave>
+				<enemy type="59" variant="0" count="4"/> <!-- Fred -->
+			</wave>
+		</stage>
+	</secAltWave>
+</bossAmbushRoom>
+
+<!-- Boss rush: You can add multiple enemy tags to a spawn tag to make custom waves. 
+     [spawnsPerWave] random spawn groups will be selected for each wave. 
+     Enemies will be arranged in a circle, counterclockwise starting from the right. -->
+<bossrush numWaves="10" spawnsPerWave="2"> 
+	<!-- Flash version bosses -->
+	<spawn>
+		<enemy type="99" variant="0" count="1"/> <!-- Gurdy Jr. -->
+	</spawn>
+	<spawn>
+		<enemy type="79" variant="2" count="1"/> <!-- Blighted Ovum -->
+	</spawn>
+	<spawn>
+		<enemy type="100" variant="1" count="1"/> <!-- The Wretched -->
+	</spawn>
+	<spawn>
+		<enemy type="28" variant="2" count="1" chunks="3"/> <!-- Carrion Queen -->
+	</spawn>
+	<spawn>
+		<enemy type="67" variant="0" count="1"/> <!-- Duke of Flies -->
+	</spawn>
+	<spawn>
+		<enemy type="68" variant="0" count="1"/> <!-- Peep -->
+	</spawn>
+	<spawn>
+		<enemy type="69" variant="0" count="1"/> <!-- Loki -->
+	</spawn>
+	<spawn>
+		<enemy type="79" variant="0" count="1"/> <!-- Gemeni -->
+	</spawn>
+	<spawn>
+		<enemy type="79" variant="1" count="1"/> <!-- Steven -->
+	</spawn>
+	<spawn>
+		<enemy type="71" variant="0" count="1"/> <!-- Fistula -->
+	</spawn>
+	<spawn>
+		<enemy type="19" variant="0" count="3" chunks="5"/> <!-- Larry Jr. -->
+	</spawn>
+	<spawn>
+		<enemy type="20" variant="0" count="1"/> <!-- Monstro -->
+	</spawn>
+	<spawn>
+		<enemy type="28" variant="1" count="1" chunks="3"/> <!-- C.H.A.D -->
+	</spawn>
+	<spawn>
+		<enemy type="28" variant="0" count="1" chunks="3"/> <!-- Chub -->
+	</spawn>
+	<spawn>
+		<enemy type="36" variant="0" count="1"/> <!-- Gurdy -->
+	</spawn>
+	<spawn>
+		<enemy type="43" variant="1" count="1"/> <!-- Gish -->
+	</spawn>
+	<spawn>
+		<enemy type="43" variant="0" count="1"/> <!-- Monstro II -->
+	</spawn>
+	<spawn>
+		<enemy type="62" variant="0" count="1"/> <!-- Pin -->
+	</spawn>
+	<spawn>
+		<enemy type="100" variant="0" count="1"/> <!-- Widow -->
+	</spawn>
+	<spawn>
+		<enemy type="67" variant="1" count="1"/> <!-- The Husk -->
+	</spawn>
+	<spawn>
+		<enemy type="19" variant="1" count="3" chunks="5"/> <!-- The Hollow -->
+	</spawn>
+	<spawn>
+		<enemy type="68" variant="1" count="1"/> <!-- The Bloat -->
+	</spawn>
+	<spawn>
+		<enemy type="97" variant="0" count="1"/> <!-- Mask of Infamy -->
+	</spawn>
+	<spawn>
+		<enemy type="63" variant="0" count="1"/> <!-- Famine -->
+	</spawn>
+	<spawn>
+		<enemy type="64" variant="0" count="1"/> <!-- Pestilence -->
+	</spawn>
+	<spawn>
+		<enemy type="65" variant="0" count="1"/> <!-- War -->
+	</spawn>
+	<spawn>
+		<enemy type="66" variant="0" count="1"/> <!-- Death -->
+	</spawn>
+	<spawn>
+		<enemy type="82" variant="0" count="1"/> <!-- Headless Horseman -->
+	</spawn>
+	<spawn>
+		<enemy type="81" variant="0" count="1"/> <!-- The Fallen -->
+	</spawn>
+	<!-- Rebirth -->
+	<spawn>
+		<enemy type="237" variant="1" count="3"/> <!-- Gurglings -->
+	</spawn>
+	<spawn>
+		<enemy type="260" variant="0" count="1"/> <!-- Haunt -->
+	</spawn>
+	<spawn>
+		<enemy type="261" variant="0" count="1"/> <!-- Dingle -->
+	</spawn>
+	<spawn>
+		<enemy type="262" variant="0" count="1"/> <!-- Mega Maw -->
+	</spawn>
+	<spawn>
+		<enemy type="263" variant="0" count="1"/> <!-- Gate -->
+	</spawn>
+	<spawn>
+		<enemy type="264" variant="0" count="1"/> <!-- Mega Fatty -->
+	</spawn>
+	<spawn>
+		<enemy type="265" variant="0" count="1"/> <!-- Cage -->
+	</spawn>
+	<spawn>
+		<enemy type="267" variant="0" count="1"/> <!-- Dark One -->
+	</spawn>
+	<spawn>
+		<enemy type="268" variant="0" count="1"/> <!-- Adversary -->
+	</spawn>
+	<spawn>
+		<enemy type="269" variant="0" count="1"/> <!-- Polycephalus -->
+	</spawn>
+	<!-- Afterbirth -->
+	<spawn>
+		<enemy type="261" variant="1" count="1"/> <!-- Dangle -->
+	</spawn>
+	<spawn>
+		<enemy type="401" variant="0" count="1"/> <!-- Stain -->
+	</spawn>
+	<spawn>
+		<enemy type="402" variant="0" count="1"/> <!-- Brownie -->
+	</spawn>
+	<spawn>
+		<enemy type="403" variant="0" count="1"/> <!-- Forsaken -->
+	</spawn>
+	<spawn>
+		<enemy type="404" variant="0" count="1"/> <!-- Little Horn -->
+	</spawn>
+	<spawn>
+		<enemy type="405" variant="0" count="1"/> <!-- Rag Man -->
+	</spawn>
+	<spawn>
+		<enemy type="62" variant="2" count="1"/> <!-- Frail -->
+	</spawn>
+	<spawn>
+		<enemy type="237" variant="2" count="3"/> <!-- Turdlings -->
+	</spawn>
+	<!-- Afterbirth+ -->
+	<spawn>
+		<enemy type="409" variant="0" count="1"/> <!-- Rag Mega -->
+	</spawn>
+	<spawn>
+		<enemy type="410" variant="0" count="1"/> <!-- Sisters Vis -->
+	</spawn>
+	<spawn>
+		<enemy type="411" variant="0" count="1"/> <!-- Big Horn -->
+	</spawn>
+</bossrush>

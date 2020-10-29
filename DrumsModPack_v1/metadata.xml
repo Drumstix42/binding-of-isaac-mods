@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>DrumsModPack_v1</name>
+    <directory>DrumsModPack_v1</directory>
+    <id>4242424242</id>
+    <description>Combine all the mods</description>
+    <version>0.1</version>
+    <visibility>Public</visibility>
+    <tag id="Tweaks"/>
+</metadata>
