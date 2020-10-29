@@ -744,7 +744,7 @@ cardDescriptions={{"1","Teleports you back to the starting room of a floor."},
 {"48","Activates your spacebar item."},
 {"49","Rerolls pedestals and pickups in current room."},
 {"50","Spawns two of Mom's hands that fall down onto two random enemies in the room, killing them. #Bosses are pinned to the ground for a while, unable to do anything. #Only spawns one hand if there's one enemy in the room. #When used on Hush, damage resistance is briefly disabled. #Does nothing if there are no enemies in the room."},
-{"51","Grants the Holy Mantle effect for one room, negating the next damage you take."},
+{"51","Grants the Holy Mantle effect for one room, negating the next damage you take.#25% chance to spawn another Holy card"},
 {"52","Grants +7 damage up, +30 range up, and increases the player's size for the current room. #Also allows the player to walk over obstacles to destroy them. #Does not stack if used multiple times."},
 {"53","Spawns 3 random cards when used. #Can spawn special 'cards' like the Dice Shard, but not runes."},
 {"54","For the current room, enemies are slowed, the player gains +0.5 speed and loses -1.0 shot speed. #Does not stack if used multiple times."}
